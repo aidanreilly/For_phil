@@ -5,4 +5,4 @@ git add .
 
 git commit -m "Commit and update the site build"
 
-git commit --amend --force
+git push origin "$(git rev-parse --abbrev-ref HEAD)" --force-with-lease
