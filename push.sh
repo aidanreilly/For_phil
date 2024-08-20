@@ -5,4 +5,4 @@ git add .
 
 git commit -m "Commit and update the site build"
 
-git push --force
+git commit --amend --force
